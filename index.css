@@ -1,0 +1,50 @@
+
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    /* Vendor prefixes: er egentlig ikke så god vane */
+    font-size: 20px;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper{
+    max-width: 900px;
+    background-color: sandybrown;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p{
+    font-size: 0.875em;
+    line-height: 1.4rem;
+    max-width: 40%;
+    position: relative;
+    z-index: 1;
+}
+
+.button{
+    background-color: seagreen;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.product-demo{
+    transform: translate(330px, -130px) scale(0.8);
+    /* width: 840px;
+    height: 373px; */
+    height: 373px;
+    width:260px;
+    background: url(/img/spritesheet.jpg);
+}
